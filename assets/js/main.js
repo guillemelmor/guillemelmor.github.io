@@ -311,8 +311,10 @@ var arrLang = {
     "CONTACT": "Contáctame",
     "LANGUAGE": "Elige entre inglés y español",
     "PROFILE": "Programador y Technical Artist",
-    "ABOUT-ME-1": "Soy una persona trabajadora y motivada cuyas principales aficiones son aprender y ayudar a los demás. Por ello me inicié en el mundo de los videojuegos como ingeniero informático, para ayudar a aquellas personas que lo necesiten. Desde las que desean evadirse momentáneamente de la realidad o que por el contrario, no son capaces de distinguir la realidad como el autismo y quieren ser capaces de relacionarse con su entorno, hasta aquellas personas que poseen una enfermedad neurodegenerativa y desean realizar rehabilitación disfrutando y en compañía.",
-    "ABOUT-ME-2": "Gracias a los conocimientos adquiridos durante mis estudios en la universidad, pude comenzar el aprendizaje en frameworks de videojuegos como Unity o Unreal, y con ellos, programas como Blender y Substance Painter, reforzando habilidades como el aprendizaje autodidacta, el trabajo en equipo y la gestión de tiempo y tareas.",
+    "ABOUT-ME-1": "Soy una persona ordenada, trabajadora y motivada cuyas principales aficiones son aprender y ayudar a los demás. Además, soy amante de la cultura japonesa, coreana y china, así como de los videojuegos de aventuras gráficas, RPG, plataformas y de estrategia.",
+    "ABOUT-ME-2": "Gracias a los conocimientos adquiridos durante mis estudios en la universidad, pude comenzar el aprendizaje en frameworks de videojuegos como Unity y Unreal, y con ellos, programas como Blender y Substance Painter, reforzando habilidades como el aprendizaje autodidacta y la gestión de tiempo y tareas.",
+    "ABOUT-ME-3": "Durante mi periodo en la universidad, fundé una asociación de videojuegos, y con ella el congreso de videojuegos anual 'GameGen' ejerciendo como director y organizador, adquiriendo habilidades de liderazgo y resolución de problemas.",
+    "ABOUT-ME-4": "En los últimos años he podido colaborar en un equipo de investigación desarrollando aplicaciones y videojuegos para smartphones, realidad virtual y realidad mixta para la rehabilitación de pacientes con enfermedades neurodegenerativas. Con ello he podido desarrollar las habilidades de cooperación y trabajo en equipo, así como, mejorar mi capacidad de aprendizaje al investigar y desarrollar con tecnologías recientes como el NFC.",
     "PERSONAL-INFO": "Información Personal",
     "BIRTHDAY-1": "Fecha de Nacimiento: ",
     "BIRTHDAY-2": "25 Febrero 1996",
@@ -418,17 +420,28 @@ var arrLang = {
 
 $(document).ready(function() {
   // The default language is English
+  $(".language-switch").prop('checked', false);
   var lang = localStorage.getItem("language");
+  var y = document.getElementById("about-en");
+  var x = document.getElementById("about-es");
   if(lang == null){
     lang = "en";
     $(".language-switch").prop('checked', false);
+    x.style.display = "none";
+    y.style.display = "block";
+    y.style.textAlign = "justify";
     localStorage.setItem("language", "en");
   }else if(lang == "en"){
     $(".language-switch").prop('checked', false);
+    x.style.display = "none";
+    y.style.display = "block";
+    y.style.textAlign = "justify";
   }else{
     $(".language-switch").prop('checked', true);
+    x.style.display = "block";
+    x.style.textAlign = "justify";
+    y.style.display = "none";
   }
-  //var lang = "en";
   $(".lang").each(function(index, element) {
     $(this).text(arrLang[lang][$(this).attr("key")]);
   });
@@ -443,6 +456,17 @@ $(".language-switch").click(function() {
   $(".lang").each(function(index, element) {
     $(this).text(arrLang[lang][$(this).attr("key")]);
   });
+  var y = document.getElementById("about-en");
+  var x = document.getElementById("about-es");
+  if(lang == "en"){
+    x.style.display = "none";
+    y.style.display = "block";
+    y.style.textAlign = "justify";
+  }else{
+    x.style.display = "block";
+    x.style.textAlign = "justify";
+    y.style.display = "none";
+  }
 });
 
 $(".button").click(function(){
