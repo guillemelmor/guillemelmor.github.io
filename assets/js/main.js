@@ -473,10 +473,10 @@ $(".button").click(function(){
   var lang = localStorage.getItem("language");
 
   if(lang == "es"){
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1R25PVg8UDCBj4Sf3S_V4BMI7BKWzPThk/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1R25PVg8UDCBj4Sf3S_V4BMI7BKWzPThk/view?usp=sharing", "_blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1kYuiN9DLn04HJpZYj5fr9diLQNz9YVq1/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1kYuiN9DLn04HJpZYj5fr9diLQNz9YVq1/view?usp=sharing", "_blank");
   }else{
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1UauNoJhln4DC8Up9_LzUfSyTCvYC5eam/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1UauNoJhln4DC8Up9_LzUfSyTCvYC5eam/view?usp=sharing", "blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1qPYnVeVGNVcpICocuuN2kP4SsUdr-QWt/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1qPYnVeVGNVcpICocuuN2kP4SsUdr-QWt/view?usp=sharing", "blank");
   }
 });

@@ -347,14 +347,13 @@ input:checked + .slider:before {
   }
 }
 
-#hero .button {
+.button {
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   transition-duration: 0.4s;
@@ -362,13 +361,13 @@ input:checked + .slider:before {
   border-radius: 50px;
 }
 
-#hero .cv-btn {
-  background-color:  #173b6c70; 
+.cv-btn {
+  background-color:  #050d18; 
   border: 2px solid #fff;
   border-radius: 50px;
 }
 
-#hero .cv-btn:hover {
+.cv-btn:hover {
   background-color: #149ddd;
   color: white;
   border-radius: 50px;
