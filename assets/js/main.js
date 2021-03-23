@@ -473,10 +473,10 @@ $(".button").click(function(){
   var lang = localStorage.getItem("language");
 
   if(lang == "es"){
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1kYuiN9DLn04HJpZYj5fr9diLQNz9YVq1/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1kYuiN9DLn04HJpZYj5fr9diLQNz9YVq1/view?usp=sharing", "_blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing", "_blank");
   }else{
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1qPYnVeVGNVcpICocuuN2kP4SsUdr-QWt/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1qPYnVeVGNVcpICocuuN2kP4SsUdr-QWt/view?usp=sharing", "blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing", "blank");
   }
 });
