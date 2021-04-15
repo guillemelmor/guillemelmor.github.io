@@ -477,10 +477,10 @@ $(".button").click(function(){
   var lang = localStorage.getItem("language");
 
   if(lang == "es"){
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1yqlUmy9Fv1i98zxxTEpJWhCZ5_0Me9W6/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1yqlUmy9Fv1i98zxxTEpJWhCZ5_0Me9W6/view?usp=sharing", "_blank");
+    $('.cv-btn').attr('src', "assets/docs/guillermo_melendez_technical_artist_CV.pdf");
+    window.open ("assets/docs/guillermo_melendez_technical_artist_CV.pdf", "_blank");
   }else{
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1yqlUmy9Fv1i98zxxTEpJWhCZ5_0Me9W6/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1yqlUmy9Fv1i98zxxTEpJWhCZ5_0Me9W6/view?usp=sharing", "blank");
+    $('.cv-btn').attr('src', "assets/docs/guillermo_melendez_technical_artist_CV.pdf");
+    window.open ("assets/docs/guillermo_melendez_technical_artist_CV.pdf", "blank");
   }
 });
