@@ -477,10 +477,10 @@ $(".button").click(function(){
   var lang = localStorage.getItem("language");
 
   if(lang == "es"){
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing", "_blank");
+    $('.cv-btn').attr('src', "https://github.com/guillemelmor/guillemelmor.github.io/blob/master/assets/docs/guillermo_melendez_technical_artist_CV.pdf");
+    window.open ("https://github.com/guillemelmor/guillemelmor.github.io/blob/master/assets/docs/guillermo_melendez_technical_artist_CV.pdf", "_blank");
   }else{
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing", "blank");
+    $('.cv-btn').attr('src', "https://github.com/guillemelmor/guillemelmor.github.io/blob/master/assets/docs/guillermo_melendez_technical_artist_CV.pdf");
+    window.open ("https://github.com/guillemelmor/guillemelmor.github.io/blob/master/assets/docs/guillermo_melendez_technical_artist_CV.pdf", "blank");
   }
 });
