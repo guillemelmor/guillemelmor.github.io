@@ -276,7 +276,9 @@ var arrLang = {
     "PORTFOLIO-FILTER-1": "Games",
     "PORTFOLIO-FILTER-2": "3D",
     "PORTFOLIO-FILTER-3": "VFX",
-    "PORTFOLIO-FILTER-4": "SHADER",    
+    "PORTFOLIO-FILTER-4": "PBR-SHADER",  
+    "PORTFOLIO-FILTER-5": "SCREEN-SHADER",  
+    "PORTFOLIO-FILTER-6": "NON-PBR-SHADER",  
     "CONTACT-ME": "Feel free to send me an email. I'll try to respond as quick as i can! I'm also in the social media, if you need me there :)",
     "CONTACT-ME-BTN": "SEND EMAIL",
     "CV": "Download CV",
@@ -390,7 +392,9 @@ var arrLang = {
     "PORTFOLIO-FILTER-1": "Juegos",
     "PORTFOLIO-FILTER-2": "3D",
     "PORTFOLIO-FILTER-3": "VFX",
-    "PORTFOLIO-FILTER-4": "SHADER",  
+    "PORTFOLIO-FILTER-4": "PBR-SHADER",  
+    "PORTFOLIO-FILTER-5": "SCREEN-SHADER",  
+    "PORTFOLIO-FILTER-6": "NON-PBR-SHADER",  
     "CONTACT-ME": "No dudes en mandarme un mail, intentaré responder lo más pronto que pueda. También estoy disponible en las redes sociales, si me necesitas ahí :)",
     "CONTACT-ME-BTN": "MANDAR EMAIL",
     "CV": "Descargar CV",
@@ -473,10 +477,10 @@ $(".button").click(function(){
   var lang = localStorage.getItem("language");
 
   if(lang == "es"){
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing", "_blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing", "_blank");
   }else{
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1OVwmWKMIRWRoWTDo06DWOkkAtuKt0mgH/view?usp=sharing", "blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing", "blank");
   }
 });

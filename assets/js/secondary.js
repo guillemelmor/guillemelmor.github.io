@@ -310,6 +310,8 @@ var arrLang = {
     "HOLO-TITLE": "Holographic Effect",
     "SNOW-TITLE": "Snow Effect",
     "WATER-TOON-TITLE": "Toon Water Effect",
+    "HEAT-DISTORTION-TITLE": "Heat Distortion",
+    "GLASS-REFRACTION-TITLE": "Glass Refraction",
   },
   "es": {
     "TITLE": "Portfolio de Guillermo Melendez",
@@ -431,6 +433,8 @@ var arrLang = {
     "HOLO-TITLE": "Efecto holográfico",
     "SNOW-TITLE": "Efecto de nieve",
     "WATER-TOON-TITLE": "Efecto de agua cartoon",
+    "HEAT-DISTORTION-TITLE": "Distorsión por Calor",
+    "GLASS-REFRACTION-TITLE": "Refracción del Cristal",
   }
 };
 
@@ -489,10 +493,10 @@ $(".button").click(function(){
   var lang = localStorage.getItem("language");
 
   if(lang == "es"){
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1kYuiN9DLn04HJpZYj5fr9diLQNz9YVq1/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1kYuiN9DLn04HJpZYj5fr9diLQNz9YVq1/view?usp=sharing", "_blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing", "_blank");
   }else{
-    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1qPYnVeVGNVcpICocuuN2kP4SsUdr-QWt/view?usp=sharing");
-    window.open ("https://drive.google.com/file/d/1qPYnVeVGNVcpICocuuN2kP4SsUdr-QWt/view?usp=sharing", "blank");
+    $('.cv-btn').attr('src', "https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing");
+    window.open ("https://drive.google.com/file/d/1We-boK8yL1RUW5SryNz66zTu_RY2PrLh/view?usp=sharing", "blank");
   }
 });

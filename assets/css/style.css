@@ -362,7 +362,7 @@ input:checked + .slider:before {
 }
 
 .cv-btn {
-  background-color:  #050d18; 
+  background-color:  #0e2442; 
   border: 2px solid #fff;
   border-radius: 50px;
 }
@@ -1092,7 +1092,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #e5f0f8;
 }
 
 .breadcrumbs h2 {
