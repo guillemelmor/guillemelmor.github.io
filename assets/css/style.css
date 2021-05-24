@@ -27,6 +27,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
 }
 
+
+
 /* --- switch button --- */
 .switch {
   position: relative;
@@ -1137,6 +1139,13 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+}
+
+.demo-video {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+  z-index: 1;
 }
 
 .portfolio-details .portfolio-details-container {

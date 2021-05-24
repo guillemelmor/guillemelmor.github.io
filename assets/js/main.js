@@ -304,6 +304,12 @@ var arrLang = {
     "WATER-DATE": "December 2020",
     "WATER-TITLE": "Water Gun",
     "WATER-DESCRIPTION-1": "Designed during the 7DFPS Gamejam, his objective is to simulate the water shooted from the gun. It was developed with Shadergraph and Standard Surface Shader in Unity, and with the help of Adobe Photoshop to draw the water texture. The speed, color and transaprency are customizables in the Unity's inspector.",
+    "BABY-DRILL-DESCRIPTION": "Developed during the Ludum Global Gamejam, I collaborated as a Technical Artist making the next tasks:",
+    "BABY-DRILL-TASK-1": "I developed shader in HLSL like the uv scrolling texture to apply a moving effect to the ship.",
+    "BABY-DRILL-TASK-2": "I ported the finished art and animations to the Unity scene.",
+    "BABY-DRILL-TASK-3": "I designed and implemented some VFX shaders like the laser gun shoot.",
+    "BABY-DRILL-TASK-4": "I collaborated with the game designer and the UI artist to put the lighting in the scene.",
+    "BABY-DRILL-TASK-5": "I lliashed between the developer team and the 3D art team."
   },
   "es": {
     "TITLE": "Portfolio de Guillermo Melendez",
@@ -419,6 +425,12 @@ var arrLang = {
     "WATER-DATE": "Marzo 2019",
     "WATER-TITLE": "Pistola de agua",
     "WATER-DESCRIPTION-1": "Diseñado durante la gamejam '7DFPS' tiene la función de simular el efecto de agua disparada. Fue desarrollada mediante Shadergraph y Standard Surface Shader en Unity, y con la ayuda de Adobe Photoshop para deseñar la textura de agua. Tanto su velocidad, como transparencia y color pueden ser personalizadas a través del inspector de Unity.",
+    "BABY-DRILL-DESCRIPTION": "Developed during the Ludum Global Gamejam, I collaborated as a Technical Artist making the next tasks:",
+    "BABY-DRILL-TASK-1": "I developed shader in HLSL like the uv scrolling texture to apply a moving effect to the ship.",
+    "BABY-DRILL-TASK-2": "I ported the finished art and animations to the Unity scene.",
+    "BABY-DRILL-TASK-3": "I designed and implemented some VFX shaders like the laser gun shoot.",
+    "BABY-DRILL-TASK-4": "I collaborated with the game designer and the UI artist to put the lighting in the scene.",
+    "BABY-DRILL-TASK-5": "I lliashed between the developer team and the 3D art team."
   }
 };
 

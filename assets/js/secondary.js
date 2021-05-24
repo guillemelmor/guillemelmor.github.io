@@ -312,6 +312,12 @@ var arrLang = {
     "WATER-TOON-TITLE": "Toon Water Effect",
     "HEAT-DISTORTION-TITLE": "Heat Distortion",
     "GLASS-REFRACTION-TITLE": "Glass Refraction",
+    "BABY-DRILL-DESCRIPTION": "Developed during the Ludum Dare Gamejam, I collaborated as a Technical Artist making the next tasks:",
+    "BABY-DRILL-TASK-1": "I developed shader in HLSL like the uv scrolling texture to apply a moving effect to the ship.",
+    "BABY-DRILL-TASK-2": "I ported the finished art and animations to the Unity scene.",
+    "BABY-DRILL-TASK-3": "I designed and implemented some VFX like the laser gun shoot.",
+    "BABY-DRILL-TASK-4": "I collaborated with the game designer and the UI artist to put the lighting in the scene.",
+    "BABY-DRILL-TASK-5": "I lliashed between the developer team and the 3D art team.",
   },
   "es": {
     "TITLE": "Portfolio de Guillermo Melendez",
@@ -434,7 +440,13 @@ var arrLang = {
     "SNOW-TITLE": "Efecto de nieve",
     "WATER-TOON-TITLE": "Efecto de agua cartoon",
     "HEAT-DISTORTION-TITLE": "Distorsión por Calor",
-    "GLASS-REFRACTION-TITLE": "Refracción del Cristal",
+    "GLASS-REFRACTION-TITLE": "Refracción del Cristal",    
+    "BABY-DRILL-DESCRIPTION": "Desarrollado durante la Ludum Dare Gamejam, colaboré como Technical Artist realizando las siguientes tareas:",
+    "BABY-DRILL-TASK-1": "Desarrollé varios shaders en HLSL como el desplazamiento de las UVs de una textura para simular el movimiento de la nave.",
+    "BABY-DRILL-TASK-2": "Importé el arte completado y sus animaciones a la escena de Unity.",
+    "BABY-DRILL-TASK-3": "Diseñe e implementé efectos especiales como el disparo laser.",
+    "BABY-DRILL-TASK-4": "Colaboré como el game designer y el UI artist para iluminar la escena.",
+    "BABY-DRILL-TASK-5": "Colaboré como enlace entre el equipo de programación y el equipo de arte 3D.",
   }
 };
 
