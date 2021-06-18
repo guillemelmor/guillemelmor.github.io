@@ -1148,6 +1148,13 @@ section {
   z-index: 1;
 }
 
+.demo-img {
+  position: relative;
+  width: 100%; 
+  height: auto; 
+  z-index: 1;
+}
+
 .portfolio-details .portfolio-details-container {
   position: relative;
 }
