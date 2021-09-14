@@ -508,3 +508,23 @@ $(".button").click(function(){
     link.dispatchEvent(new MouseEvent('click'));
   }
 });
+
+$(".button-dev").click(function(){
+  var lang = localStorage.getItem("language");
+
+  if(lang == "es"){
+    //$('.cv-btn').attr('src', "assets/docs/guillermo_melendez_technical_artist_CV.pdf");
+    //window.open ("assets/docs/guillermo_melendez_technical_artist_CV.pdf", "_blank");
+    var link = document.createElement("a");
+    link.download = 'guillermo_melendez_game_developer_CV.pdf';
+    link.href = "assets/docs/guillermo_melendez_game_developer_CV.pdf";
+    link.dispatchEvent(new MouseEvent('click'));
+  }else{
+    //$('.cv-btn').attr('src', "assets/docs/guillermo_melendez_technical_artist_CV.pdf");
+    //window.open ("assets/docs/guillermo_melendez_technical_artist_CV.pdf", "_blank");
+    var link = document.createElement("a");
+  link.download = 'guillermo_melendez_game_developer_CV.pdf';
+    link.href = "assets/docs/guillermo_melendez_game_developer_CV.pdf";
+    link.dispatchEvent(new MouseEvent('click'));
+  }
+});
