@@ -309,7 +309,9 @@ var arrLang = {
     "BABY-DRILL-TASK-2": "I ported the finished art and animations to the Unity scene.",
     "BABY-DRILL-TASK-3": "I designed and implemented some VFX shaders like the laser gun shoot.",
     "BABY-DRILL-TASK-4": "I collaborated with the game designer and the UI artist to put the lighting in the scene.",
-    "BABY-DRILL-TASK-5": "I lliashed between the developer team and the 3D art team."
+    "BABY-DRILL-TASK-5": "I lliashed between the developer team and the 3D art team.",
+    "SELECTION": "Selection",
+    "SELECTION-TITLE": "What profile can I help you with?"
   },
   "es": {
     "TITLE": "Portfolio de Guillermo Melendez",
@@ -430,7 +432,9 @@ var arrLang = {
     "BABY-DRILL-TASK-2": "I ported the finished art and animations to the Unity scene.",
     "BABY-DRILL-TASK-3": "I designed and implemented some VFX shaders like the laser gun shoot.",
     "BABY-DRILL-TASK-4": "I collaborated with the game designer and the UI artist to put the lighting in the scene.",
-    "BABY-DRILL-TASK-5": "I lliashed between the developer team and the 3D art team."
+    "BABY-DRILL-TASK-5": "I lliashed between the developer team and the 3D art team.",
+    "SELECTION": "Selección",
+    "SELECTION-TITLE": "¿Con qué perfil puedo ayudarte?"
   }
 };
 
