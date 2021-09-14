@@ -363,6 +363,20 @@ input:checked + .slider:before {
   border-radius: 50px;
 }
 
+.button-dev {
+  background-color: #0e2442;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
 .head-btn {
   background-color: #0e2442;
   border: none;
